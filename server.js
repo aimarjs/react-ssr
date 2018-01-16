@@ -83,7 +83,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom_server__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom_server___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_dom_server__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_App__ = __webpack_require__(4);
-var _jsxFileName = "D:\\dev\\snapit-build\\src\\server\\index.js",
+var _jsxFileName = "/Users/aimar/Desktop/experimental/react-ssr/src/server/index.js",
     _this = this;
 
 
@@ -130,7 +130,7 @@ module.exports = require("react-dom/server");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_css__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__App_css__);
-var _jsxFileName = "D:\\dev\\snapit-build\\src\\shared\\App.js";
+var _jsxFileName = '/Users/aimar/Desktop/experimental/react-ssr/src/shared/App.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -144,50 +144,50 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var App = function (_Component) {
-  _inherits(App, _Component);
+	_inherits(App, _Component);
 
-  function App() {
-    _classCallCheck(this, App);
+	function App() {
+		_classCallCheck(this, App);
 
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
-  }
+		return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+	}
 
-  _createClass(App, [{
-    key: "render",
-    value: function render() {
-      return React.createElement(
-        "div",
-        { className: "App", __source: {
-            fileName: _jsxFileName,
-            lineNumber: 7
-          },
-          __self: this
-        },
-        React.createElement(
-          "div",
-          { className: "App-header", __source: {
-              fileName: _jsxFileName,
-              lineNumber: 8
-            },
-            __self: this
-          },
-          React.createElement(
-            "h2",
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 9
-              },
-              __self: this
-            },
-            "Welcome to React in the server"
-          )
-        )
-      );
-    }
-  }]);
+	_createClass(App, [{
+		key: 'render',
+		value: function render() {
+			return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+				'div',
+				{ className: 'App', __source: {
+						fileName: _jsxFileName,
+						lineNumber: 7
+					},
+					__self: this
+				},
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'div',
+					{ className: 'App-header', __source: {
+							fileName: _jsxFileName,
+							lineNumber: 8
+						},
+						__self: this
+					},
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'h2',
+						{
+							__source: {
+								fileName: _jsxFileName,
+								lineNumber: 9
+							},
+							__self: this
+						},
+						'Welcome to React in the server'
+					)
+				)
+			);
+		}
+	}]);
 
-  return App;
+	return App;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["a"] = (App);
